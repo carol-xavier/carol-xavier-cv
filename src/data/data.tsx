@@ -69,18 +69,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Carol Xavier.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Ceará (Brazil) based <strong className="text-stone-100">Business Intelligence Analyst</strong>, currently working
+        at <strong className="text-stone-100">Themis Furigo Institute</strong> helping build a data-driven culture for 
+      strategic decisions to make a better world. 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training <strong className="text-stone-100">crossfit</strong>,
+        enjoying <strong className="text-stone-100">theater, movies, good concerts</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">beaches</strong>.
       </p>
     </>
   ),
@@ -104,16 +104,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I have a background in Biotechnology and transitioned to the tech industry, where I now specialize in data analysis. 
+  My expertise includes collecting, processing, and analyzing data using 𝗣𝘆𝘁𝗵𝗼𝗻, 𝗦𝗤𝗟, 𝗚𝗼𝗼𝗴𝗹𝗲 𝗖𝗹𝗼𝘂𝗱 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺, 𝗟𝗼𝗼𝗸𝗲𝗿 𝗦𝘁𝘂𝗱𝗶𝗼, 𝗣𝗼𝘄𝗲𝗿𝗕𝗜, 𝗧𝗮𝗯𝗹𝗲𝗮𝘂 and 𝗠𝗲𝘁𝗮𝗯𝗮𝘀𝗲, 
+  with experience developing dashboards, automating processes, and analyzing large datasets in a fintech.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Fortaleza-CE, Brazil', Icon: MapIcon},
+    {label: 'Age', text: '31', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Crossfit, Brazilian music, Good movies', Icon: SparklesIcon},
+    {label: 'Study', text: 'Federal University of Ceará', Icon: AcademicCapIcon},
+    {label: 'Volunteering', text: 'Instituto Themis Furigo', Icon: BuildingOffice2Icon}, /*Troquei Employment por Volunteering*/
   ],
 };
 
@@ -129,12 +129,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Portuguese',
+        level: 10,
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 2,
       },
     ],
   },
@@ -268,17 +268,24 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'October 2022',
+    location: 'Driven Education',
+    title: 'Full-Stack Web Development',
+    content: <p>Intensive +1200 hours focused on practical projects using HTML, CSS, Javascript, ReactJS, NodeJS, MongoDB (NoSQL),
+    Postgres, Typescript, AWS, Containers (Docker), CI/CD, DevOps</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2021',
+    location: 'Utah State University',
+    title: 'PhD. Student in Animal, Reproduction and Development',
+    content: <p>Relevant courses: Design of Experiments, Biostatistics Methods, and Special Problem in Applied Statistics.</p>,
   },
+  {
+    date: 'January 2017',
+    location: 'Federal University of Ceará',
+    title: "Bachelor's degree in Biotechnology",
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  }
 ];
 
 export const experience: TimelineItem[] = [
