@@ -9,10 +9,9 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -78,7 +77,7 @@ export const heroData: Hero = {
       strategic decisions to make a better world. 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training <strong className="text-stone-100">crossfit</strong>,
+        In my free time, you can catch me training <strong className="text-stone-100">crossfit</strong>,
         enjoying <strong className="text-stone-100">theater, movies, good concerts</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">beaches</strong>.
       </p>
@@ -284,30 +283,46 @@ export const education: TimelineItem[] = [
     date: 'January 2017',
     location: 'Federal University of Ceará',
     title: "Bachelor's degree in Biotechnology",
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>A program that focuses on the application of the biological sciences and technology to the preparation of new and enhanced agricultural, 
+      environmental, clinical, and industrial products. The cornerstone of my academic journey, which has been a great adventure. </p>,
   }
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Data Analyst',
+    location: 'Themis Furigo Institute',
+    title: 'Data Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Establish the Data Sector of the institute, fostering a culture that prioritizes data-driven decision-making.
+        {/*Establish and lead the Data Sector of the institute, fostering a culture that prioritizes data-driven decision-making.*/} 
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'November 2023 - August 2024',
+    location: 'CloudWalk Inc.',
+    title: 'Data Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Advanced use of Python, SQL, and Google Cloud Platform <br/>
+        • Writing SQL queries for data analysis, manipulation, and feature engineering <br/>
+        • Processing large volumes of data<br/>
+        Collaboration and support <br/>
+        • Suggesting and participating in team collaborations for innovative projects <br/>
+        • Meeting the data demands of different product owners
+      </p>
+    ),
+  },
+  {
+    date: 'December 2022 - May 2023',
+    location: 'CloudWalk Inc.',
+    title: 'Operations Analyst',
+    content: (
+      <p>
+        •Operations and product monitoring, looking for anomalies to report to the responsible teams <br/>
+        •Develop dashboards and process automation to improve annomaly detection
       </p>
     ),
   },
@@ -320,20 +335,10 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Erick Antunes',
+      text: 'I had the pleasure of working with Carol, and I can confidently say that she is an exceptional professional. Her excellent command of English, combined with her strong experience in data analysis and programming, made her a key contributor to our team. Carol consistently demonstrated responsibility and logical thinking, which was evident in her ability to efficiently monitor both external and internal processes while working with me in the operations area, where she conducted analyses always seeking to find solutions to improve our tools and processes. She was always attentive to any anomalies and ensured they were reported to the responsible teams. Her proactive approach, attention to detail, and strong problem-solving skills made her an invaluable asset. I highly recommend Carol for any role that requires analytical expertise and solid technical knowledge!',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
+    }
   ],
 };
 
@@ -347,23 +352,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'carolxavier.ana@gmail.com',
+      href: 'mailto:carolxavier.ana@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Fortaleza CE, Brazil',
+      href: 'https://www.google.ca/maps/place/Fortaleza+-+CE/@-3.7931392,-38.6021882,12z',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      type: ContactType.LinkedIn,
+      text: 'Carol Xavier Silva',
+      href: 'https://www.linkedin.com/in/carolxaviersilva/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'carol-xavier',
+      href: 'https://github.com/carol-xavier',
     },
   ],
 };
@@ -372,9 +377,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/carol-xavier'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/carolxaviersilva/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
 ];
