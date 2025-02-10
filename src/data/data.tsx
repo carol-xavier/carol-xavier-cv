@@ -197,7 +197,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://app.powerbi.com/view?r=eyJrIjoiNmQ1OTUzNmYtZTI0Mi00MmNmLWI3MzMtZDk3NGRjYjA0YTgxIiwidCI6ImFjMzUyZjliLWViNjMtNGNhMi05Y2Y5LWY0YzQwMDQ3Y2VmZiIsImMiOjZ9',
     image: porfolioImage1,
   },
   {
