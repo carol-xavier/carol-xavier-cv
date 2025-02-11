@@ -98,12 +98,12 @@ export const aboutData: About = {
   My expertise includes collecting, processing, and analyzing data using 𝗣𝘆𝘁𝗵𝗼𝗻, 𝗦𝗤𝗟, 𝗚𝗼𝗼𝗴𝗹𝗲 𝗖𝗹𝗼𝘂𝗱 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺, 𝗟𝗼𝗼𝗸𝗲𝗿 𝗦𝘁𝘂𝗱𝗶𝗼, 𝗣𝗼𝘄𝗲𝗿𝗕𝗜, 𝗧𝗮𝗯𝗹𝗲𝗮𝘂 and 𝗠𝗲𝘁𝗮𝗯𝗮𝘀𝗲, 
   with experience developing dashboards, automating processes, and analyzing large datasets in a fintech.`,
   aboutItems: [
-    { label: 'Location', text: 'Fortaleza-CE, Brazil', Icon: MapIcon },
-    { label: 'Age', text: '31', Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Brazilian', Icon: FlagIcon },
-    { label: 'Interests', text: 'Crossfit, Brazilian music, Good movies', Icon: SparklesIcon },
-    { label: 'Study', text: 'Federal University of Ceará', Icon: AcademicCapIcon },
-    { label: 'Volunteering', text: 'Instituto Themis Furigo', Icon: BuildingOffice2Icon }, /*Troquei Employment por Volunteering*/
+    {label: 'Location', text: 'Fortaleza-CE, Brazil', Icon: MapIcon},
+    {label: 'Age', text: '31', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Crossfit, Brazilian music, Good movies', Icon: SparklesIcon},
+    {label: 'Study', text: 'Federal University of Ceará', Icon: AcademicCapIcon},
+    {label: 'Volunteering', text: 'Instituto Themis Furigo', Icon: BuildingOffice2Icon}, /*Troquei Employment por Volunteering*/
   ],
 };
 
@@ -320,8 +320,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/carol-xavier' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/carol-xavier'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/carolxaviersilva/' },
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/carolxaviersilva/'},
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
 ];
