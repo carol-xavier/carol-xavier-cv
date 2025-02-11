@@ -111,6 +111,62 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
+
+  {
+    name: 'Programming Languages',
+    skills: [
+      {
+        name: 'SQL',
+        level: 10,
+      },
+      {
+        name: 'Python',
+        level: 8,
+      },
+      {
+        name: 'Javascript',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Data Visualization',
+    skills: [
+      {
+        name: 'Power BI',
+        level: 9,
+      },
+      {
+        name: 'Matplotlib - Seaborn - Plotly',
+        level: 9,
+      },
+      {
+        name: 'Metabase',
+        level: 8,
+      },
+      {
+        name: 'Looker Studio',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Databases',
+    skills: [
+      {
+        name: 'Big Query',
+        level: 9,
+      },
+      {
+        name: 'PostgreSQL',
+        level: 8,
+      },
+      {
+        name: 'MongoDB',
+        level: 6,
+      },
+    ],
+  },
   {
     name: 'Spoken languages',
     skills: [
@@ -121,61 +177,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'Portuguese',
         level: 10,
-      },
-      {
-        name: 'Spanish',
-        level: 2,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
