@@ -64,8 +64,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Ceará (Brazil) based <strong className="text-stone-100">Data Analyst</strong>, currently working as a volunteer
-        at <strong className="text-stone-100">Themis Furigo Institute</strong> helping build a data-driven culture for 
-      strategic decisions to make a better world. 
+        at <strong className="text-stone-100">Themis Furigo Institute</strong> helping build a data-driven culture for
+        strategic decisions to make a better world.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me training <strong className="text-stone-100">crossfit</strong>,
@@ -98,12 +98,12 @@ export const aboutData: About = {
   My expertise includes collecting, processing, and analyzing data using 𝗣𝘆𝘁𝗵𝗼𝗻, 𝗦𝗤𝗟, 𝗚𝗼𝗼𝗴𝗹𝗲 𝗖𝗹𝗼𝘂𝗱 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺, 𝗟𝗼𝗼𝗸𝗲𝗿 𝗦𝘁𝘂𝗱𝗶𝗼, 𝗣𝗼𝘄𝗲𝗿𝗕𝗜, 𝗧𝗮𝗯𝗹𝗲𝗮𝘂 and 𝗠𝗲𝘁𝗮𝗯𝗮𝘀𝗲, 
   with experience developing dashboards, automating processes, and analyzing large datasets in a fintech.`,
   aboutItems: [
-    {label: 'Location', text: 'Fortaleza-CE, Brazil', Icon: MapIcon},
-    {label: 'Age', text: '31', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Crossfit, Brazilian music, Good movies', Icon: SparklesIcon},
-    {label: 'Study', text: 'Federal University of Ceará', Icon: AcademicCapIcon},
-    {label: 'Volunteering', text: 'Instituto Themis Furigo', Icon: BuildingOffice2Icon}, /*Troquei Employment por Volunteering*/
+    { label: 'Location', text: 'Fortaleza-CE, Brazil', Icon: MapIcon },
+    { label: 'Age', text: '31', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Brazilian', Icon: FlagIcon },
+    { label: 'Interests', text: 'Crossfit, Brazilian music, Good movies', Icon: SparklesIcon },
+    { label: 'Study', text: 'Federal University of Ceará', Icon: AcademicCapIcon },
+    { label: 'Volunteering', text: 'Instituto Themis Furigo', Icon: BuildingOffice2Icon }, /*Troquei Employment por Volunteering*/
   ],
 };
 
@@ -214,7 +214,7 @@ export const education: TimelineItem[] = [
     location: 'Driven Education',
     title: 'Full-Stack Web Development',
     content: <p>Intensive +1200 hours focused on practical projects using HTML, CSS, Javascript, ReactJS, NodeJS, MongoDB (NoSQL),
-    Postgres, Typescript, AWS, Containers (Docker), CI/CD, DevOps</p>,
+      Postgres, Typescript, AWS, Containers (Docker), CI/CD, DevOps</p>,
   },
   {
     date: 'May 2021',
@@ -226,7 +226,7 @@ export const education: TimelineItem[] = [
     date: 'January 2017',
     location: 'Federal University of Ceará',
     title: "Bachelor's degree in Biotechnology",
-    content: <p>A program that focuses on the application of the biological sciences and technology to the preparation of new and enhanced agricultural, 
+    content: <p>A program that focuses on the application of the biological sciences and technology to the preparation of new and enhanced agricultural,
       environmental, clinical, and industrial products. The cornerstone of my academic journey, which has been a great adventure. </p>,
   }
 ];
@@ -239,7 +239,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Establish the Data Sector of the institute, fostering a culture that prioritizes data-driven decision-making.
-        {/*Establish and lead the Data Sector of the institute, fostering a culture that prioritizes data-driven decision-making.*/} 
+        {/*Establish and lead the Data Sector of the institute, fostering a culture that prioritizes data-driven decision-making.*/}
       </p>
     ),
   },
@@ -249,11 +249,11 @@ export const experience: TimelineItem[] = [
     title: 'Data Analyst',
     content: (
       <p>
-        Advanced use of Python, SQL, and Google Cloud Platform <br/>
-        • Writing SQL queries for data analysis, manipulation, and feature engineering <br/>
-        • Processing large volumes of data<br/>
-        Collaboration and support <br/>
-        • Suggesting and participating in team collaborations for innovative projects <br/>
+        Advanced use of Python, SQL, and Google Cloud Platform <br />
+        • Writing SQL queries for data analysis, manipulation, and feature engineering <br />
+        • Processing large volumes of data<br />
+        Collaboration and support <br />
+        • Suggesting and participating in team collaborations for innovative projects <br />
         • Meeting the data demands of different product owners
       </p>
     ),
@@ -264,7 +264,7 @@ export const experience: TimelineItem[] = [
     title: 'Operations Analyst',
     content: (
       <p>
-        •Operations and product monitoring, looking for anomalies to report to the responsible teams <br/>
+        •Operations and product monitoring, looking for anomalies to report to the responsible teams <br />
         •Develop dashboards and process automation to improve annomaly detection
       </p>
     ),
@@ -320,8 +320,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/carol-xavier'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/carol-xavier' },
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/carolxaviersilva/'},
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/carolxaviersilva/' },
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
 ];
